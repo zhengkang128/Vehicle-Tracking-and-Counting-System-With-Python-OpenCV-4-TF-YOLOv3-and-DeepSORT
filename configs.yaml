@@ -1,0 +1,31 @@
+#detector configs
+yoloModelName: yolov3                  # filename of yolov3.weights file stored in model_data/. Do not include ext
+yoloSize: 832                          #  input size of yolov3. The higher the value, accuracy increases and fps decreases
+trackerModel_filename: mars-small128   # filename of DeepSort model (.pb) Do not include ext.
+tracker_max_cosine_distance: 0.2       # max value for distance metric for tracker
+tracker_maxAge: 7                      # max value of age for each track
+exit_lines:                            # exit line equations in the form of (a, b, c), given the line equation: ax + by + c = 0
+ - - 0
+   - 1
+   - -1000
+ - - 1
+   - 0
+   - -1850
+confThreshold: 0.7                    # yolov3 confidence threshold
+nmsThreshold: 0.2                     # yolov3 nmsThreshold
+
+#stabilizer configs
+stabilizerPercentageCropFromTop: 20   # percentage crop to filter region for point features tracking
+roiPolyPoints:                        # polygon points (x,y) to crop ROI for southbound lanes
+ - - 0
+   - 827
+ - - 1290
+   - 110
+ - - 1919
+   - 533
+ - - 1919
+   - 1079
+ - - 0
+   - 1079
+
+video_input: inputs/VehicleTest.mp4          #video filename for input
