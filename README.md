@@ -12,4 +12,4 @@
 2. Move Video Input (VehicleTest.mp4) to inputs/ directory
 3. Run `python3 main.py`
 
-## How this works
+## Pipeline
