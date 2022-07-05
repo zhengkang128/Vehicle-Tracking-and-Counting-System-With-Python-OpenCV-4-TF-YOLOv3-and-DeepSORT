@@ -1,4 +1,4 @@
-# Vehicle Tracking and Counting System With Python3.7 OpenCV4 TF2-YOLOv3 and DeepSORT
+# Vehicle Tracking and Counting System With Python3.7, OpenCV4, TF2-YOLOv3, and DeepSORT
 
 ## Installation
 Clone this repository: `git clone https://github.com/zhengkang128/Vehicle-Tracking-and-Counting-System-With-Python-OpenCV-4-TF-YOLOv3-and-DeepSORT.git`  
