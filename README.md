@@ -1,13 +1,13 @@
 # Vehicle Tracking and Counting System With Python3.7 OpenCV4 TF2-YOLOv3 and DeepSORT
 
 ## Installation
-`git clone https://github.com/zhengkang128/Vehicle-Tracking-and-Counting-System-With-Python-OpenCV-4-TF-YOLOv3-and-DeepSORT.git`  
+Clone this repository: `git clone https://github.com/zhengkang128/Vehicle-Tracking-and-Counting-System-With-Python-OpenCV-4-TF-YOLOv3-and-DeepSORT.git`  
 
-`cd Vehicle-Tracking-and-Counting-System-With-Python-OpenCV-4-TF-YOLOv3-and-DeepSORT` 
+Change directory to this repository: `cd Vehicle-Tracking-and-Counting-System-With-Python-OpenCV-4-TF-YOLOv3-and-DeepSORT` 
 
-`pip3 install -r requirements.txt`  
+Install Python Libraries: `pip3 install -r requirements.txt`  
 
-`wget https://pjreddie.com/media/files/yolov3.weights -P model_data/`   
+Download weight files: `wget https://pjreddie.com/media/files/yolov3.weights -P model_data/`   
 (OR Download yolov3.weights file from https://pjreddie.com/media/files/yolov3.weights and store it in model_data/ folder)
 
 ## Quick Start
