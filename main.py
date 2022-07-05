@@ -60,8 +60,8 @@ if __name__ == '__main__':
             #Transform to original
             top_left = (box[0], box[1])
             bottom_right = (box[0] + box[2], box[1] + box[3])
-            top_left = VideoStabilizer.transform2OriginalCoord(top_left, transformation_mat)
-            bottom_right = VideoStabilizer.transform2OriginalCoord(bottom_right, transformation_mat)
+            top_left = VideoPreprocessor.transform2OriginalCoord(top_left, transformation_mat)
+            bottom_right = VideoPreprocessor.transform2OriginalCoord(bottom_right, transformation_mat)
 
             if trackId in exit_records:
                 color = (0, 255 , 0)
