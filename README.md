@@ -28,8 +28,11 @@ Download weight files: `wget https://pjreddie.com/media/files/yolov3.weights -P 
 ### 2. Polygon ROI Crop
 ![alt text](https://github.com/zhengkang128/Vehicle-Tracking-and-Counting-System-With-Python-OpenCV-4-TF-YOLOv3-and-DeepSORT/blob/main/docs/masked.gif)
 
-### 3. Detect, Track, Count
+### 3. Define exit lines
+![alt text](https://github.com/zhengkang128/Vehicle-Tracking-and-Counting-System-With-Python-OpenCV-4-TF-YOLOv3-and-DeepSORT/blob/main/docs/exit_regions.png)
+
+### 4. Detect, Track, Count
 ![alt text](https://github.com/zhengkang128/Vehicle-Tracking-and-Counting-System-With-Python-OpenCV-4-TF-YOLOv3-and-DeepSORT/blob/main/docs/move.gif)
 
-### 4. Transform back to original 
+### 5. Transform back to original 
 ![alt text](https://github.com/zhengkang128/Vehicle-Tracking-and-Counting-System-With-Python-OpenCV-4-TF-YOLOv3-and-DeepSORT/blob/main/docs/final.gif)
