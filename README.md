@@ -18,7 +18,7 @@ Download weight files: `wget https://pjreddie.com/media/files/yolov3.weights -P 
 
 
 ## Pipeline
-![alt text](https://github.com/zhengkang128/Vehicle-Tracking-and-Counting-System-With-Python-OpenCV-4-TF-YOLOv3-and-DeepSORT/blob/main/docs/flowchart.png)
+![alt text](https://github.com/zhengkang128/Vehicle-Tracking-and-Counting-System-With-Python-OpenCV-4-TF-YOLOv3-and-DeepSORT/blob/main/docs/flowchart2.png)
 
 ## Detailed Steps
 
