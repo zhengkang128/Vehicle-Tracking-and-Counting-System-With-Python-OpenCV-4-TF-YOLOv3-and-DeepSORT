@@ -7,7 +7,7 @@ Change directory to this repository: `cd Vehicle-Tracking-and-Counting-System-Wi
 
 Install Python Libraries: `pip3 install -r requirements.txt`  
 
-Download weight files: `wget https://pjreddie.com/media/files/yolov3.weights -P model_data/`   
+Download weights files: `wget https://pjreddie.com/media/files/yolov3.weights -P model_data/`   
 (OR Download yolov3.weights file from https://pjreddie.com/media/files/yolov3.weights and store it in model_data/ folder)
 
 ## Quick Start
