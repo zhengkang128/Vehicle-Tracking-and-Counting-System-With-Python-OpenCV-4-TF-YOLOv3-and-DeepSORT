@@ -7,6 +7,8 @@
 
 `pip3 install -r requirements.txt`  
 
+Download yolov3.weights file from https://pjreddie.com/media/files/yolov3.weights and store it in model_data/ folder
+
 ## Quick Start
 1. cd to this directory
 2. Move Video Input (VehicleTest.mp4) to inputs/ directory
