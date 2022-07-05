@@ -15,7 +15,7 @@ Download weights files: `wget https://pjreddie.com/media/files/yolov3.weights -P
 2. Move Video Input (VehicleTest.mp4) to inputs/ directory
 3. Adjust parameters in config.yaml
 4. Run `python3 main.py`
-
+5. Output will be saved in outputs/ folder  
 
 ## Pipeline
 ![alt text](https://github.com/zhengkang128/Vehicle-Tracking-and-Counting-System-With-Python-OpenCV-4-TF-YOLOv3-and-DeepSORT/blob/main/docs/flowchart2.png)
