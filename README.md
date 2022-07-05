@@ -7,7 +7,8 @@
 
 `pip3 install -r requirements.txt`  
 
-Download yolov3.weights file from https://pjreddie.com/media/files/yolov3.weights and store it in model_data/ folder
+`wget https://pjreddie.com/media/files/yolov3.weights -P model_data/` 
+(OR Download yolov3.weights file from https://pjreddie.com/media/files/yolov3.weights and store it in model_data/ folder)
 
 ## Quick Start
 1. cd to this directory
